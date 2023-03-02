@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html, body{
+    background-color: black;
+    
+}
+.container{
+    display: flex;
+    margin: 0;
+    background-color: transparent;
+   width: 100%;
+   max-width: 1242px;
+
+}
+
+ .left-container{
+    flex: 1;
+    display: flex;
+    height: 4rem;
+    width: 8rem;
+
+}
+.logo{
+    height: 4rem;
+    width: 8rem;
+}
+.nav-main{
+   display: flex;
+   margin: 1rem;
+   color: lightslategray;
+}
+.nav-items{
+    list-style: none;
+    padding: 0.5rem;
+}
+.nav-items-active{
+   color: white;
+   font-weight: bolder;
+}
+.right-container{
+    display: flex;
+    height: 4rem;
+    width: 8rem;
+    
+}
+
+
+/* .movie section css */
+.movies-section{
+
+}
+.movies-section
